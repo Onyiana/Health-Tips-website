@@ -241,7 +241,7 @@ color: #fff;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(16,35,52,.8);
+    background-color: rgba(16, 35, 52, 0.658);
     border-radius: 10px;
   }
   
