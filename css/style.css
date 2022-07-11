@@ -13,6 +13,7 @@
 
 html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #Homesection{
@@ -341,18 +342,6 @@ color: #fff;
 }
 
 @media screen and (max-width:768px) {
-    .middleTxt h1, h2, h3{
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 20px;
-    }
-
-    .middleTxt button{
-        padding: 10px 20px;
-        font-size: 10px;
-    }
-
     .first {
         font-size: 16px;
     }
@@ -396,6 +385,23 @@ color: #fff;
 }
 
 @media screen and (max-width:320px) {
+
+    .middleTxt h1, h2, h3{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 27px;
+      }
+
+      .middleTxt h1{
+        font-style: bold;
+      }
+  
+      .middleTxt button{
+          padding: 10px 20px;
+          font-size: 10px;
+    }
+  
     #subServices{
      width: 100%;
      text-align: center;
