@@ -170,8 +170,7 @@ color: #fff;
     background-size: cover;
     align-items: center;
     color: #fff;
-    margin: auto;
-    margin-top: 8rem;
+    margin: 8rem auto 0;
     padding: 2rem;
 }
 
@@ -216,6 +215,13 @@ color: #fff;
     align-items: center;
     gap: 1rem;
     margin: 3rem;
+    
+}
+
+.healthyFood .container img{
+    width: 17rem; 
+    height: 10rem;
+    object-fit: cover;
 }
 
 .TophealthyFood{
@@ -241,12 +247,11 @@ color: #fff;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 10rem;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(16, 35, 52, 0.658);
-    border-radius: 10px;
   }
   
   .container:hover .overlay {
@@ -408,7 +413,7 @@ color: #fff;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        padding: 1.5rem;
+        padding: 3rem 1.5rem;
     }
    
        #subServices button{
@@ -421,12 +426,11 @@ color: #fff;
     }
 
     .offer{
-        width: 15rem;
+        width: 18rem;
     }
 
     #questions{
         width: 100%;
-        text-align: center;
          padding: 1rem;
     }
 
@@ -434,9 +438,22 @@ color: #fff;
         width: 100%;
         padding:1.5rem ;
     }
+
+    .Asked{
+        width: 300px;
+    }
+
+    .frequent p{
+        margin: 2rem;
+        width: 90%;
+    }
+
+    .accordion{
+        width: 300px;
+        margin: 1rem auto;
+    }
  
      .accordion h3{
-         width: 100%;
          font-size: 15px;
     }
  
