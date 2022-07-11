@@ -384,33 +384,33 @@ color: #fff;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:375px) {
 
     .middleTxt h1, h2, h3{
-        width: 100%;
+        width: 120%;
         margin-left: auto;
         margin-right: auto;
-        font-size: 27px;
-      }
+        font-size: 29px;
+    }
 
       .middleTxt h1{
         font-style: bold;
-      }
+    }
   
       .middleTxt button{
-          padding: 10px 20px;
-          font-size: 10px;
-    }
-  
-    #subServices{
-     width: 100%;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     padding: 1.5rem;
+        padding: 10px 20px;
+        font-size: 10px;
     }
 
-    #subServices button{
+    #subServices{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5rem;
+    }
+   
+       #subServices button{
         padding: 10px 15px;
         font-size: 12px;
     }
@@ -441,10 +441,6 @@ color: #fff;
  
      .accordion button{
          font-size: 12px;
-    }
-
-    .frequent{
-        width: 100%;
     }
 
     .footerBottomText{
