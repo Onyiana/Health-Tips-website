@@ -344,5 +344,20 @@ color: #fff;
 
 @media screen and (max-width:768px) {
 
-}
+    .first {
+        font-size: 14px;
+    }
+    
+    .tag p{
+      font-size: 15px;
+    }
 
+    #subServices p{
+     width: 90%;
+    }
+
+    .offer{
+        width: 18rem;
+    }
+    
+}
