@@ -232,16 +232,16 @@ color: #fff;
 .container {
     position: relative;
     width: 50%;
-  }
+}
   
-  .image {
+.image {
     border-radius: 10px;
     display: block;
     width: 100%;
     height: auto;
-  }
+}
   
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -252,13 +252,13 @@ color: #fff;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(16, 35, 52, 0.658);
-  }
+}
   
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 1;
-  }
+}
   
-  .text {
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -268,9 +268,9 @@ color: #fff;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  .text1 {
+.text1 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -280,7 +280,7 @@ color: #fff;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 
 #Contact{
@@ -365,6 +365,7 @@ color: #fff;
     
     .tag p{
       font-size: 15px;
+      width: 85%;
     }
 
     #subServices p{
@@ -377,6 +378,7 @@ color: #fff;
 /* this was used to style the navlinks on smaller screen */
     .hamburger{
         display: block;
+        font-size: 35px;
     }
 
     .ri-close-circle-fill{
@@ -425,20 +427,24 @@ color: #fff;
 }
 
 @media screen and (max-width:375px) {
-
-    .middleTxt {
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        
+    #navbar {
+        padding: 10px 1rem;
+        width: 100%;
     }
 
-      .middleTxt h1{
+
+  .middleTxt {
+    width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middleTxt h1{
         font-style: bold;
         font-size: 29px;
     }
   
-      .middleTxt button{
+    .middleTxt button{
         padding: 10px 20px;
         font-size: 10px;
     }
@@ -451,7 +457,7 @@ color: #fff;
         padding: 3rem 1.5rem;
     }
    
-       #subServices button{
+    #subServices button{
         padding: 10px 15px;
         font-size: 12px;
     }
@@ -492,7 +498,7 @@ color: #fff;
          font-size: 15px;
     }
  
-     .accordion button{
+    .accordion button{
          font-size: 12px;
     }
 
