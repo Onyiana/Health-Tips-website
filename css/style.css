@@ -318,6 +318,18 @@ color: #fff;
     text-decoration: none;
 }
 
+.hamburger{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.Asked.showFaq .answered{
+    display: block;
+}
+
+
 @media screen and (min-width:992px) {
     .bgSection{
         width: 90%;
@@ -361,7 +373,30 @@ color: #fff;
 
     .offer{
         width: 18rem;
-    }  
+    }
+/* this was used to style the navlinks on smaller screen */
+    .hamburger{
+        display: block;
+    }
+
+    .ri-close-circle-fill{
+        display: none;
+    }
+
+    #navlink{
+        background-color: #102334;
+        flex-direction: column;
+        position: absolute;
+        top: -50%;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        z-index: 1;
+        padding: 2rem;
+        transition: .5s;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width:576px) {
