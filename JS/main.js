@@ -14,4 +14,5 @@ accordionBtn.forEach(element => {
             element.innerHTML = '<i class="accordionBtn" id="1"><button style="cursor: pointer;">Close</button></i>'
             answered.style.display = 'none'
         }
+    })
 });
