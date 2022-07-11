@@ -188,9 +188,7 @@ color: #fff;
 
 .Asked{
     width: 72%;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 2rem 8rem;
+    margin: 2rem auto;
 }
 
 .accordion{
@@ -343,9 +341,20 @@ color: #fff;
 }
 
 @media screen and (max-width:768px) {
+    .middleTxt h1, h2, h3{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+    }
+
+    .middleTxt button{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
 
     .first {
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .tag p{
@@ -366,10 +375,6 @@ color: #fff;
     .first {
        flex-direction: column;
     }
-
-    /* #subServices p{
-        width: ;
-    }  */
     
     .TophealthyFood{
         flex-direction: column;
@@ -385,7 +390,66 @@ color: #fff;
         padding: 10px;
     } 
 
-    #Contact{
+    #bottomP{
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #subServices{
+     width: 100%;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1.5rem;
+    }
+
+    #subServices button{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .program{
+        padding: 1rem;
+    }
+
+    .offer{
+        width: 15rem;
+    }
+
+    #questions{
+        width: 100%;
+        text-align: center;
+         padding: 1rem;
+    }
+
+    .questions p{
+        width: 100%;
+        padding:1.5rem ;
+    }
+ 
+     .accordion h3{
+         width: 100%;
+         font-size: 15px;
+    }
+ 
+     .accordion button{
+         font-size: 12px;
+    }
+
+    .frequent{
+        width: 100%;
+    }
+
+    .footerBottomText{
+        font-size: 15px ;
+    }
+
+    .bottomNavbar a{
+        font-size: 14px;
+    } 
+
+    #bottomP{
+        font-size: 13px;
     }
 }
