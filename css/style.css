@@ -502,6 +502,10 @@ color: #fff;
          font-size: 12px;
     }
 
+    .container {
+        width: 100%;
+    }
+
     .footerBottomText{
         font-size: 15px ;
     }
