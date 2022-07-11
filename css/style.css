@@ -17,11 +17,10 @@ html, body{
 
 #Homesection{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)) ,url(/Images/hospitalist.jpg);
-    height: 93.8vh;
+    height: 89vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-position: bottom; */
 }
 
 #navbar{
@@ -136,6 +135,7 @@ color: #fff;
 
 .program{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 4rem;
@@ -215,8 +215,13 @@ color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin: 3rem;
+}
+
+.TophealthyFood{
+    display: flex;
+    gap: 2rem;
 }
 
 .container {
@@ -309,4 +314,35 @@ color: #fff;
     text-decoration: none;
 }
 
+@media screen and (min-width:992px) {
+    .bgSection{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:992px){
+    
+
+    .bgSection img{
+        display: none;
+    }
+
+    .middleTxt{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .healthyFood{
+       flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+}
 
