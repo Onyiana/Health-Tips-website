@@ -5,12 +5,12 @@ accordionBtn.forEach(element => {
         const id = element.getAttribute('id')
         const ansClass = `answered${id}`
         const answered = document.getElementById(ansClass)
-        if (answered.style.display === 'none') {
+        if (answered.style.display === 'block') {
             element.innerHTML = '<i class="accordionBtn" id="1"><button style="cursor: pointer;">Open</button></i>'
-            answered.style.display = 'block'
+            answered.style.display = 'none'
         }else {
             element.innerHTML = '<i class="accordionBtn" id="1"><button style="cursor: pointer;">Close</button></i>'
-            answered.style.display = 'none'
+            answered.style.display = 'block'
         }
     })
 });
