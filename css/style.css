@@ -325,6 +325,10 @@ color: #fff;
     display: none;
 }
 
+i{
+    user-select: none;
+}
+
 .Asked.showFaq .answered{
     display: block;
 }
@@ -333,6 +337,22 @@ color: #fff;
     transition: .5s;
 }
 
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#102334;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
+  }
 
 @media screen and (min-width:992px) {
     .bgSection{
@@ -343,8 +363,6 @@ color: #fff;
 }
 
 @media screen and (max-width:992px){
-    
-
     .bgSection img{
         display: none;
     }
@@ -363,6 +381,10 @@ color: #fff;
 }
 
 @media screen and (max-width:768px) {
+    #Homesection{
+        height: 100vh;
+    }
+    
     .first {
         font-size: 16px;
     }
@@ -388,7 +410,7 @@ color: #fff;
     .ri-close-circle-fill{
         display: none;
     }
-
+    
     #navlink{
         background-color: #102334;
         flex-direction: column;
